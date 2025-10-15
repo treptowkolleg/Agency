@@ -23,16 +23,33 @@ public abstract class AbstractAgent {
 	 */
 	public abstract String toString();
 
+	/**
+	 * Fahrzeug zur ArrayList hinzufügen.
+	 * @param car Fahrzeug, das dem Agenten zugeordnet wird.
+	 */
 	public void addVehicle(AbstractVehicle car) {
 	}
 
+	/**
+	 * Fahrzeug an bestimmter Position entfernen.
+	 * @param index Position, an der ein Fahrzeug entfernt werden soll.
+	 */
 	public void removeVehicle(int index) {
 	}
 
+	/**
+	 * Alle Fahrzeuge zurückgeben.
+	 * @param index Position des Fahrzeugs.
+	 * @return Fahrzeug
+	 */
 	public AbstractVehicle getVehicle(int index) {
 		return null;
 	}
 
+	/**
+	 * 
+	 * @return Fahrzeugliste
+	 */
 	public ArrayList<AbstractVehicle> getVehicles() {
 		return new ArrayList<>();
 	}
