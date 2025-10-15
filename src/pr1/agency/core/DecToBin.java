@@ -73,6 +73,7 @@ public class DecToBin implements ExampleInterface {
 				IO.print(result);
 			}
 
+		// Sollte auf jeden Fall überarbeitet werden.
 		} catch (NoSuchMethodException e) {
 			System.err.println(e.getLocalizedMessage());
 		} catch (SecurityException e) {

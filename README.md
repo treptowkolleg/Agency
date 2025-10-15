@@ -1,6 +1,16 @@
 # Agency
 
+Dieses Repo enthält verschiedene Übungen.
+
+## Content
+
+### Example1
+
 Diese Übung demonstriert die Anwendung verschiedener Design Patterns.
+
+### DecToBin
+
+Diese Übung enthält Dezimal-zu-Binär-Umwandler und umgekehrt.
 
 ## Template
 
